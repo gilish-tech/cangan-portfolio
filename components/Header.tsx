@@ -19,7 +19,8 @@ const Header = () => {
        {/* desktop nav */}
        <div className="hidden xl:flex gap-3 justify-center items-center">
             <Nav/>
-            <Link  href={"https://wa.me/+2349069318407"} target='_blank'>
+            {/* <Link  href={""} target='_blank'> */}
+            <Link  href={"mailto:cangancynthia@gmail.com?subject=Hiring%20Inquiry%20for%20[Your%20Name]&body=Hello%20%2D%20I%27m%20interested%20in%20hiring%20you.%20Please%20reply%20with%20your%20availability%20and%20rates.%0A%0AThanks%2C%0A%5BClient%20Name%5D"} target='_blank'>
               <Button className='flex items-center gap-1' >
                  <FaWhatsapp className='text-[18px]' />
                   Hire Me

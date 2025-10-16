@@ -9,7 +9,7 @@ const Photo = () => {
     <div className='w-full h-full relative '>
         <motion.div initial={{opacity:0}} animate={{opacity:1}} transition={{duration:2, delay:0.4, ease:"easeIn"}} >
               <div className='top-0 w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute'>
-                  <Image alt="profile-pic" src="/gilberto.png"  priority quality={100} fill className='object-contain'/>
+                  <Image alt="profile-pic" src="/profile.png"  priority quality={100} fill className='object-contain'/>
                   {/* <Image alt="profile-pic" src="/gilbert.jpg"  priority quality={100} fill className='object-contain'/> */}
               </div>
               <motion.svg className="w-[300px] xl:w-[506px] h-[300px] xl:h-[506px]" fill="transparent"
