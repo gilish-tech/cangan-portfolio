@@ -21,22 +21,22 @@ import  {FaPhoneAlt,FaEnvelope,FaMapMarkerAlt} from "react-icons/fa"
 import { motion } from 'framer-motion'
 
 const info = [
-  {
-    icon:<FaPhoneAlt/>,
-    title:"phone",
-    description:"(+234) 913 727 3072"
+  // {
+  //   icon:<FaPhoneAlt/>,
+  //   title:"phone",
+  //   description:"(+234) 913 727 3072"
 
-  },
+  // },
   {
     icon:<FaEnvelope/>,
     title:"Email",
-    description:"nwabuezegilbert@gmail.com"
+    description:"cangancynthia@gmail.com"
 
   },
   {
     icon:<FaMapMarkerAlt/>,
-    title:"Address",
-    description:"Nigeria"
+    title:"Country",
+    description:"Phillipine"
 
   },
 
@@ -75,7 +75,7 @@ const Contact = () => {
                   console.log(d)
                 })}>
                   <h3 className="text-4xl text-accent">Let's work together</h3>
-                  <p className="text-white/60">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit aspernatur quisquam officiis, assumenda omnis fuga. Placeat, aliquid.</p>
+                  <p className="text-white/60">I’m always open to collaborating on exciting projects that bring ideas to life. Let’s create something amazing together.</p>
                    {/* input */}
                    <div className="grid grid-cols-1 gap-2 md:grid-cols-2">
                      <div className="">
