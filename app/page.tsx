@@ -20,17 +20,20 @@ export default function Home() {
                 <p className="max-w-[500px] mb-9 text-white">
                 I specialize in building intelligent, scalable web applications that combine modern frontend design with high-performance backend systems. With expertise in Next.js, FastAPI, LangGraph, and LangChain, I develop full-stack solutions that integrate AI automation, responsive design, and seamless API workflows to deliver real-world impact for users and businesses.
                   </p>
-                {/* <div className="flex flex-col  justify-center xl:items-start  items-center gap-8">
-                    <Button variant={"outline"} size={"lg"} className="flex items-center gap-2">
-                      <span>Download CV </span>
-                      <FiDownload className="text-xl " />
-                    </Button>
-                    <div>
+                <div className="flex flex-col  justify-center xl:items-start  items-center gap-8">
+                   
+                    <a href="/cv/Cynthia-Cangan.pdf" download="Cynthia-Cangan_resume.pdf">
+                      <Button variant={"outline"} size={"lg"} className="flex items-center gap-2">
+                        <span>Download CV </span>
+                        <FiDownload className="text-xl " />
+                      </Button>
+                    </a>
+                    {/* <div>
                        <Social containerStyles="flex gap-6" iconstyles="flex w-9  h-9
                        border rounded-full border-accent justify-center items-center text-accent
                        text-base hover:bg-accent hover:text-primary transition-all duration-500"/>
-                    </div>
-                </div> */}
+                    </div> */}
+                </div> 
             </div>
             {/* photo */}
             <div className="order-1 xl:order-none mb-8 xl:mb-0">
